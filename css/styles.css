@@ -859,7 +859,1505 @@ nav .links div a {
 .head .fran-header {
   max-width: 981px;
   margin: 0 auto;
-  height: 200px;
+  height: 413px;
+  margin-top: 50px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour-05.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.head .fran-header .head-title {
+  top: 0;
+  left: 0;
+  padding-left: 30px;
+  position: absolute;
+  font-family: Proxima;
+  font-size: 60px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.head .start {
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  color: #fff;
+  font-family: Proxima;
+  font-size: 30px;
+}
+.head .three {
+  width: 978px;
+  height: 374px;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+.head .three .isra-imag1 {
+  background-image: url(../assets/tour-israel/israel-tour-01.jpg);
+}
+.head .three .isra-imag2 {
+  background-image: url(../assets/tour-israel/israel-tour-02.jpg);
+}
+.head .three .isra-imag3 {
+  background-image: url(../assets/tour-israel/israel-tour-03.jpg);
+}
+.head .three .usa-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .usa-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .usa-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .aus-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .aus-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .aus-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .new-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .new-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .new-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .fran-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .fran-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .fran-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .egypt-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .egypt-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .egypt-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .japan-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .japan-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .japan-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .can-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .can-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .can-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .aue-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .aue-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .aue-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+
+.info-content {
+  width: 981px;
+  min-height: 776px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.info-content .sec1 .day-title {
+  font-family: Proxima;
+  font-size: 60px;
+}
+.info-content .sec1 .bord {
+  width: 171px;
+  margin-top: -20px;
+  border-bottom: #000 solid 2px;
+  margin-bottom: 37px;
+}
+.info-content .sec1 .day-content {
+  font-family: Gillsans;
+  font-size: 16px;
+}
+.info-content .sec2 {
+  margin-top: 70px;
+}
+.info-content .sec2 .day-title {
+  font-family: Proxima;
+  font-size: 60px;
+}
+.info-content .sec2 .bord {
+  width: 171px;
+  margin-top: -20px;
+  border-bottom: #000 solid 2px;
+  margin-bottom: 37px;
+}
+.info-content .sec2 .day-content {
+  font-family: Gillsans;
+  font-size: 16px;
+}
+.info-content .sec3 {
+  margin-top: 70px;
+}
+.info-content .sec3 .day-title {
+  font-family: Proxima;
+  font-size: 60px;
+}
+.info-content .sec3 .bord {
+  width: 171px;
+  margin-top: -20px;
+  border-bottom: #000 solid 2px;
+  margin-bottom: 37px;
+}
+.info-content .sec3 .day-content {
+  font-family: Gillsans;
+  font-size: 16px;
+}
+.info-content .book-btn {
+  width: 133px;
+  margin: 0 auto;
+  margin-top: 80px;
+  font-family: Gillsans;
+  font-size: 15px;
+  color: #fff;
+  background-color: #79ADDC;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .head {
+    width: 981px;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  .start {
+    padding-right: 200px;
+  }
+
+  .info-content {
+    width: 981px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+  }
+  .info-content .day-content {
+    width: 700px;
+    margin-bottom: 50px;
+  }
+  .info-content .book-btn {
+    margin: 0 auto;
+  }
+}
+.head .fran-header {
+  max-width: 981px;
+  margin: 0 auto;
+  height: 413px;
+  margin-top: 50px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour-05.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.head .fran-header .head-title {
+  top: 0;
+  left: 0;
+  padding-left: 30px;
+  position: absolute;
+  font-family: Proxima;
+  font-size: 60px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.head .start {
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  color: #fff;
+  font-family: Proxima;
+  font-size: 30px;
+}
+.head .three {
+  width: 978px;
+  height: 374px;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+.head .three .isra-imag1 {
+  background-image: url(../assets/tour-israel/israel-tour-01.jpg);
+}
+.head .three .isra-imag2 {
+  background-image: url(../assets/tour-israel/israel-tour-02.jpg);
+}
+.head .three .isra-imag3 {
+  background-image: url(../assets/tour-israel/israel-tour-03.jpg);
+}
+.head .three .usa-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .usa-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .usa-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .aus-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .aus-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .aus-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .new-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .new-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .new-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .fran-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .fran-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .fran-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .egypt-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .egypt-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .egypt-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .japan-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .japan-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .japan-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .can-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .can-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .can-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .aue-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .aue-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .aue-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+
+.info-content {
+  width: 981px;
+  min-height: 776px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.info-content .sec1 .day-title {
+  font-family: Proxima;
+  font-size: 60px;
+}
+.info-content .sec1 .bord {
+  width: 171px;
+  margin-top: -20px;
+  border-bottom: #000 solid 2px;
+  margin-bottom: 37px;
+}
+.info-content .sec1 .day-content {
+  font-family: Gillsans;
+  font-size: 16px;
+}
+.info-content .sec2 {
+  margin-top: 70px;
+}
+.info-content .sec2 .day-title {
+  font-family: Proxima;
+  font-size: 60px;
+}
+.info-content .sec2 .bord {
+  width: 171px;
+  margin-top: -20px;
+  border-bottom: #000 solid 2px;
+  margin-bottom: 37px;
+}
+.info-content .sec2 .day-content {
+  font-family: Gillsans;
+  font-size: 16px;
+}
+.info-content .sec3 {
+  margin-top: 70px;
+}
+.info-content .sec3 .day-title {
+  font-family: Proxima;
+  font-size: 60px;
+}
+.info-content .sec3 .bord {
+  width: 171px;
+  margin-top: -20px;
+  border-bottom: #000 solid 2px;
+  margin-bottom: 37px;
+}
+.info-content .sec3 .day-content {
+  font-family: Gillsans;
+  font-size: 16px;
+}
+.info-content .book-btn {
+  width: 133px;
+  margin: 0 auto;
+  margin-top: 80px;
+  font-family: Gillsans;
+  font-size: 15px;
+  color: #fff;
+  background-color: #79ADDC;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .head {
+    width: 981px;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  .start {
+    padding-right: 200px;
+  }
+
+  .info-content {
+    width: 981px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+  }
+  .info-content .day-content {
+    width: 700px;
+    margin-bottom: 50px;
+  }
+  .info-content .book-btn {
+    margin: 0 auto;
+  }
+}
+.head .fran-header {
+  max-width: 981px;
+  margin: 0 auto;
+  height: 413px;
+  margin-top: 50px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour-05.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.head .fran-header .head-title {
+  top: 0;
+  left: 0;
+  padding-left: 30px;
+  position: absolute;
+  font-family: Proxima;
+  font-size: 60px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.head .start {
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  color: #fff;
+  font-family: Proxima;
+  font-size: 30px;
+}
+.head .three {
+  width: 978px;
+  height: 374px;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+.head .three .isra-imag1 {
+  background-image: url(../assets/tour-israel/israel-tour-01.jpg);
+}
+.head .three .isra-imag2 {
+  background-image: url(../assets/tour-israel/israel-tour-02.jpg);
+}
+.head .three .isra-imag3 {
+  background-image: url(../assets/tour-israel/israel-tour-03.jpg);
+}
+.head .three .usa-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .usa-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .usa-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .aus-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .aus-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .aus-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .new-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .new-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .new-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .fran-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .fran-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .fran-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .egypt-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .egypt-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .egypt-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .japan-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .japan-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .japan-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .can-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .can-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .can-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .aue-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .aue-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .aue-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+
+.info-content {
+  width: 981px;
+  min-height: 776px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.info-content .sec1 .day-title {
+  font-family: Proxima;
+  font-size: 60px;
+}
+.info-content .sec1 .bord {
+  width: 171px;
+  margin-top: -20px;
+  border-bottom: #000 solid 2px;
+  margin-bottom: 37px;
+}
+.info-content .sec1 .day-content {
+  font-family: Gillsans;
+  font-size: 16px;
+}
+.info-content .sec2 {
+  margin-top: 70px;
+}
+.info-content .sec2 .day-title {
+  font-family: Proxima;
+  font-size: 60px;
+}
+.info-content .sec2 .bord {
+  width: 171px;
+  margin-top: -20px;
+  border-bottom: #000 solid 2px;
+  margin-bottom: 37px;
+}
+.info-content .sec2 .day-content {
+  font-family: Gillsans;
+  font-size: 16px;
+}
+.info-content .sec3 {
+  margin-top: 70px;
+}
+.info-content .sec3 .day-title {
+  font-family: Proxima;
+  font-size: 60px;
+}
+.info-content .sec3 .bord {
+  width: 171px;
+  margin-top: -20px;
+  border-bottom: #000 solid 2px;
+  margin-bottom: 37px;
+}
+.info-content .sec3 .day-content {
+  font-family: Gillsans;
+  font-size: 16px;
+}
+.info-content .book-btn {
+  width: 133px;
+  margin: 0 auto;
+  margin-top: 80px;
+  font-family: Gillsans;
+  font-size: 15px;
+  color: #fff;
+  background-color: #79ADDC;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .head {
+    width: 981px;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  .start {
+    padding-right: 200px;
+  }
+
+  .info-content {
+    width: 981px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+  }
+  .info-content .day-content {
+    width: 700px;
+    margin-bottom: 50px;
+  }
+  .info-content .book-btn {
+    margin: 0 auto;
+  }
+}
+.head .fran-header {
+  max-width: 981px;
+  margin: 0 auto;
+  height: 413px;
+  margin-top: 50px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour-05.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.head .fran-header .head-title {
+  top: 0;
+  left: 0;
+  padding-left: 30px;
+  position: absolute;
+  font-family: Proxima;
+  font-size: 60px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.head .start {
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  color: #fff;
+  font-family: Proxima;
+  font-size: 30px;
+}
+.head .three {
+  width: 978px;
+  height: 374px;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+.head .three .isra-imag1 {
+  background-image: url(../assets/tour-israel/israel-tour-01.jpg);
+}
+.head .three .isra-imag2 {
+  background-image: url(../assets/tour-israel/israel-tour-02.jpg);
+}
+.head .three .isra-imag3 {
+  background-image: url(../assets/tour-israel/israel-tour-03.jpg);
+}
+.head .three .usa-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .usa-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .usa-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .aus-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .aus-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .aus-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .new-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .new-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .new-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .fran-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .fran-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .fran-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .egypt-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .egypt-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .egypt-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .japan-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .japan-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .japan-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .can-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .can-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .can-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .aue-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .aue-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .aue-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+
+.info-content {
+  width: 981px;
+  min-height: 776px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.info-content .sec1 .day-title {
+  font-family: Proxima;
+  font-size: 60px;
+}
+.info-content .sec1 .bord {
+  width: 171px;
+  margin-top: -20px;
+  border-bottom: #000 solid 2px;
+  margin-bottom: 37px;
+}
+.info-content .sec1 .day-content {
+  font-family: Gillsans;
+  font-size: 16px;
+}
+.info-content .sec2 {
+  margin-top: 70px;
+}
+.info-content .sec2 .day-title {
+  font-family: Proxima;
+  font-size: 60px;
+}
+.info-content .sec2 .bord {
+  width: 171px;
+  margin-top: -20px;
+  border-bottom: #000 solid 2px;
+  margin-bottom: 37px;
+}
+.info-content .sec2 .day-content {
+  font-family: Gillsans;
+  font-size: 16px;
+}
+.info-content .sec3 {
+  margin-top: 70px;
+}
+.info-content .sec3 .day-title {
+  font-family: Proxima;
+  font-size: 60px;
+}
+.info-content .sec3 .bord {
+  width: 171px;
+  margin-top: -20px;
+  border-bottom: #000 solid 2px;
+  margin-bottom: 37px;
+}
+.info-content .sec3 .day-content {
+  font-family: Gillsans;
+  font-size: 16px;
+}
+.info-content .book-btn {
+  width: 133px;
+  margin: 0 auto;
+  margin-top: 80px;
+  font-family: Gillsans;
+  font-size: 15px;
+  color: #fff;
+  background-color: #79ADDC;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .head {
+    width: 981px;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  .start {
+    padding-right: 200px;
+  }
+
+  .info-content {
+    width: 981px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+  }
+  .info-content .day-content {
+    width: 700px;
+    margin-bottom: 50px;
+  }
+  .info-content .book-btn {
+    margin: 0 auto;
+  }
+}
+.head .fran-header {
+  max-width: 981px;
+  margin: 0 auto;
+  height: 413px;
+  margin-top: 50px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour-05.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.head .fran-header .head-title {
+  top: 0;
+  left: 0;
+  padding-left: 30px;
+  position: absolute;
+  font-family: Proxima;
+  font-size: 60px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.head .start {
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  color: #fff;
+  font-family: Proxima;
+  font-size: 30px;
+}
+.head .three {
+  width: 978px;
+  height: 374px;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+.head .three .isra-imag1 {
+  background-image: url(../assets/tour-israel/israel-tour-01.jpg);
+}
+.head .three .isra-imag2 {
+  background-image: url(../assets/tour-israel/israel-tour-02.jpg);
+}
+.head .three .isra-imag3 {
+  background-image: url(../assets/tour-israel/israel-tour-03.jpg);
+}
+.head .three .usa-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .usa-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .usa-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .aus-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .aus-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .aus-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .new-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .new-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .new-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .fran-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .fran-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .fran-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .egypt-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .egypt-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .egypt-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .japan-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .japan-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .japan-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .can-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .can-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .can-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .aue-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .aue-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .aue-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+
+.info-content {
+  width: 981px;
+  min-height: 776px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.info-content .sec1 .day-title {
+  font-family: Proxima;
+  font-size: 60px;
+}
+.info-content .sec1 .bord {
+  width: 171px;
+  margin-top: -20px;
+  border-bottom: #000 solid 2px;
+  margin-bottom: 37px;
+}
+.info-content .sec1 .day-content {
+  font-family: Gillsans;
+  font-size: 16px;
+}
+.info-content .sec2 {
+  margin-top: 70px;
+}
+.info-content .sec2 .day-title {
+  font-family: Proxima;
+  font-size: 60px;
+}
+.info-content .sec2 .bord {
+  width: 171px;
+  margin-top: -20px;
+  border-bottom: #000 solid 2px;
+  margin-bottom: 37px;
+}
+.info-content .sec2 .day-content {
+  font-family: Gillsans;
+  font-size: 16px;
+}
+.info-content .sec3 {
+  margin-top: 70px;
+}
+.info-content .sec3 .day-title {
+  font-family: Proxima;
+  font-size: 60px;
+}
+.info-content .sec3 .bord {
+  width: 171px;
+  margin-top: -20px;
+  border-bottom: #000 solid 2px;
+  margin-bottom: 37px;
+}
+.info-content .sec3 .day-content {
+  font-family: Gillsans;
+  font-size: 16px;
+}
+.info-content .book-btn {
+  width: 133px;
+  margin: 0 auto;
+  margin-top: 80px;
+  font-family: Gillsans;
+  font-size: 15px;
+  color: #fff;
+  background-color: #79ADDC;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .head {
+    width: 981px;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  .start {
+    padding-right: 200px;
+  }
+
+  .info-content {
+    width: 981px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+  }
+  .info-content .day-content {
+    width: 700px;
+    margin-bottom: 50px;
+  }
+  .info-content .book-btn {
+    margin: 0 auto;
+  }
+}
+.head .fran-header {
+  max-width: 981px;
+  margin: 0 auto;
+  height: 413px;
+  margin-top: 50px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour-05.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.head .fran-header .head-title {
+  top: 0;
+  left: 0;
+  padding-left: 30px;
+  position: absolute;
+  font-family: Proxima;
+  font-size: 60px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.head .start {
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  color: #fff;
+  font-family: Proxima;
+  font-size: 30px;
+}
+.head .three {
+  width: 978px;
+  height: 374px;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+.head .three .isra-imag1 {
+  background-image: url(../assets/tour-israel/israel-tour-01.jpg);
+}
+.head .three .isra-imag2 {
+  background-image: url(../assets/tour-israel/israel-tour-02.jpg);
+}
+.head .three .isra-imag3 {
+  background-image: url(../assets/tour-israel/israel-tour-03.jpg);
+}
+.head .three .usa-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .usa-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .usa-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .aus-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .aus-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .aus-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .new-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .new-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .new-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .fran-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .fran-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .fran-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .egypt-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .egypt-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .egypt-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .japan-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .japan-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .japan-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .can-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .can-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .can-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .aue-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .aue-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .aue-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+
+.info-content {
+  width: 981px;
+  min-height: 776px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.info-content .sec1 .day-title {
+  font-family: Proxima;
+  font-size: 60px;
+}
+.info-content .sec1 .bord {
+  width: 171px;
+  margin-top: -20px;
+  border-bottom: #000 solid 2px;
+  margin-bottom: 37px;
+}
+.info-content .sec1 .day-content {
+  font-family: Gillsans;
+  font-size: 16px;
+}
+.info-content .sec2 {
+  margin-top: 70px;
+}
+.info-content .sec2 .day-title {
+  font-family: Proxima;
+  font-size: 60px;
+}
+.info-content .sec2 .bord {
+  width: 171px;
+  margin-top: -20px;
+  border-bottom: #000 solid 2px;
+  margin-bottom: 37px;
+}
+.info-content .sec2 .day-content {
+  font-family: Gillsans;
+  font-size: 16px;
+}
+.info-content .sec3 {
+  margin-top: 70px;
+}
+.info-content .sec3 .day-title {
+  font-family: Proxima;
+  font-size: 60px;
+}
+.info-content .sec3 .bord {
+  width: 171px;
+  margin-top: -20px;
+  border-bottom: #000 solid 2px;
+  margin-bottom: 37px;
+}
+.info-content .sec3 .day-content {
+  font-family: Gillsans;
+  font-size: 16px;
+}
+.info-content .book-btn {
+  width: 133px;
+  margin: 0 auto;
+  margin-top: 80px;
+  font-family: Gillsans;
+  font-size: 15px;
+  color: #fff;
+  background-color: #79ADDC;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .head {
+    width: 981px;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  .start {
+    padding-right: 200px;
+  }
+
+  .info-content {
+    width: 981px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+  }
+  .info-content .day-content {
+    width: 700px;
+    margin-bottom: 50px;
+  }
+  .info-content .book-btn {
+    margin: 0 auto;
+  }
+}
+.head .fran-header {
+  max-width: 981px;
+  margin: 0 auto;
+  height: 413px;
+  margin-top: 50px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour-05.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.head .fran-header .head-title {
+  top: 0;
+  left: 0;
+  padding-left: 30px;
+  position: absolute;
+  font-family: Proxima;
+  font-size: 60px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.head .start {
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  color: #fff;
+  font-family: Proxima;
+  font-size: 30px;
+}
+.head .three {
+  width: 978px;
+  height: 374px;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+.head .three .isra-imag1 {
+  background-image: url(../assets/tour-israel/israel-tour-01.jpg);
+}
+.head .three .isra-imag2 {
+  background-image: url(../assets/tour-israel/israel-tour-02.jpg);
+}
+.head .three .isra-imag3 {
+  background-image: url(../assets/tour-israel/israel-tour-03.jpg);
+}
+.head .three .usa-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .usa-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .usa-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .aus-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .aus-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .aus-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .new-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .new-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .new-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .fran-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .fran-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .fran-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .egypt-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .egypt-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .egypt-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .japan-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .japan-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .japan-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .can-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .can-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .can-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+.head .three .aue-imag1 {
+  background-image: url(../assets/tour-aus/aus-tour-01.jpg);
+}
+.head .three .aue-imag2 {
+  background-image: url(../assets/tour-aus/aus-tour-02.jpg);
+}
+.head .three .aue-imag3 {
+  background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+}
+
+.info-content {
+  width: 981px;
+  min-height: 776px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.info-content .sec1 .day-title {
+  font-family: Proxima;
+  font-size: 60px;
+}
+.info-content .sec1 .bord {
+  width: 171px;
+  margin-top: -20px;
+  border-bottom: #000 solid 2px;
+  margin-bottom: 37px;
+}
+.info-content .sec1 .day-content {
+  font-family: Gillsans;
+  font-size: 16px;
+}
+.info-content .sec2 {
+  margin-top: 70px;
+}
+.info-content .sec2 .day-title {
+  font-family: Proxima;
+  font-size: 60px;
+}
+.info-content .sec2 .bord {
+  width: 171px;
+  margin-top: -20px;
+  border-bottom: #000 solid 2px;
+  margin-bottom: 37px;
+}
+.info-content .sec2 .day-content {
+  font-family: Gillsans;
+  font-size: 16px;
+}
+.info-content .sec3 {
+  margin-top: 70px;
+}
+.info-content .sec3 .day-title {
+  font-family: Proxima;
+  font-size: 60px;
+}
+.info-content .sec3 .bord {
+  width: 171px;
+  margin-top: -20px;
+  border-bottom: #000 solid 2px;
+  margin-bottom: 37px;
+}
+.info-content .sec3 .day-content {
+  font-family: Gillsans;
+  font-size: 16px;
+}
+.info-content .book-btn {
+  width: 133px;
+  margin: 0 auto;
+  margin-top: 80px;
+  font-family: Gillsans;
+  font-size: 15px;
+  color: #fff;
+  background-color: #79ADDC;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .head {
+    width: 981px;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  .start {
+    padding-right: 200px;
+  }
+
+  .info-content {
+    width: 981px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+  }
+  .info-content .day-content {
+    width: 700px;
+    margin-bottom: 50px;
+  }
+  .info-content .book-btn {
+    margin: 0 auto;
+  }
+}
+.head .fran-header {
+  max-width: 981px;
+  margin: 0 auto;
+  height: 413px;
   margin-top: 50px;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour-05.jpg);
   background-size: cover;
