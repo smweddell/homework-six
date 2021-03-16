@@ -1,0 +1,126 @@
+.tour {
+  header {
+    @include center(981px, 0 auto);
+    height: 200px;
+    margin-top: 50px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../assets/tours-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    span {
+      font-family: Proxima;
+      font-size: 60px;
+      color: #fff;
+      text-transform: uppercase;
+    }
+  }
+
+  .tours {
+    @include center(818px, 48px auto 0 auto);
+    min-height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .place {
+      width: 236px;
+      height: 304px;
+      //   background-color: chartreuse;
+      //   margin: 0 55px 55px 0;
+      margin-bottom: 55px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: $white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .titles {
+      font-family: Proxima;
+      font-size: 60px;
+      font-style: italic;
+      font-weight: thin;
+      margin-bottom: 6px;
+    }
+
+    .prices {
+      font-family: Proxima;
+      font-size: 30px;
+      font-style: italic;
+      font-weight: thin;
+      margin-bottom: 60px;
+    }
+
+    .learn-btn {
+      font-family: Gillsans;
+      font-size: 15px;
+      background-color: $site-blue;
+      padding: 10px 30px;
+      border-radius: 20px;
+
+      a {
+        text-decoration: none;
+        color: $white;
+      }
+    }
+
+    .israel {
+      background-image: $overlay, url(../assets/tour-01.jpg);
+    }
+
+    .usa {
+      background-image: $overlay, url(../assets/tour-02.jpg);
+    }
+
+    .aus {
+      background-image: $overlay, url(../assets/tour-03.jpg);
+    }
+
+    .nz {
+      background-image: $overlay, url(../assets/tour-04.jpg);
+    }
+
+    .france {
+      background-image: $overlay, url(../assets/tour-05.jpg);
+    }
+
+    .egypt {
+      background-image: $overlay, url(../assets/tour-06.jpg);
+    }
+
+    .japan {
+      background-image: $overlay, url(../assets/tour-07.jpg);
+    }
+
+    .canada {
+      background-image: $overlay, url(../assets/tour-08.jpg);
+    }
+
+    .uae {
+      background-image: $overlay, url(../assets/tour-09.jpg);
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .tours {
+    width: 981px;
+    flex-direction: column;
+  }
+
+  .place {
+    margin: 0 auto;
+  }
+}

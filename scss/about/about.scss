@@ -1,0 +1,101 @@
+.about {
+  max-width: 980px;
+  margin: 0 auto;
+  margin-top: 90px;
+
+  .about-top {
+    .about-title {
+      font-family: Proxima;
+      font-weight: thin;
+      font-size: 60px;
+    }
+
+    .border {
+      width: 171px;
+      margin-top: -25px;
+      border-bottom: $black solid 2px;
+      margin-bottom: 37px;
+    }
+
+    .about-content {
+      font-family: Gillsans;
+      font-size: 16px;
+    }
+  }
+
+  .about-bottom {
+    margin-top: 95px;
+    margin-bottom: 180px;
+
+    .about-client {
+      font-family: Proxima;
+      font-weight: thin;
+      font-size: 40px;
+    }
+
+    .border2 {
+      width: 255px;
+      margin-top: -20px;
+      border-bottom: $black solid 2px;
+      margin-bottom: 37px;
+    }
+
+    .client {
+      max-width: 722px;
+      min-height: 150px;
+      margin-bottom: 38px;
+      display: flex;
+
+      .client-image {
+        width: 260px;
+        height: 150px;
+        background-image: url(../assets/about-client-01.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .client-image2 {
+        width: 260px;
+        height: 150px;
+        background-image: url(../assets/about-client-02.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      .client-quote {
+        position: relative;
+        min-height: 50px;
+        // width: 100%;
+        padding-left: 20px;
+
+        .clientQ {
+          height: 102px;
+          width: 385px;
+          font-family: Gillsans;
+          font-size: 16px;
+          font-style: italic;
+        }
+
+        .client-name {
+          right: 0;
+          bottom: 0;
+          position: absolute;
+          color: $site-blue;
+          font-family: Proxima;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .about {
+    padding-left: 50px;
+  }
+
+  .about-content {
+    width: 700px;
+  }
+}
