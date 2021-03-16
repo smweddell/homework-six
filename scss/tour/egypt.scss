@@ -1,0 +1,171 @@
+.head {
+    .egypt-header {
+      @include center(981px, 0 auto);
+      height: 413px;
+      margin-top: 50px;
+      background-image: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ),
+        url(../assets/tour-06.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+  
+       .head-title {
+        top: 0;
+        left: 0;
+        padding-left: 30px;
+        position: absolute;
+        font-family: Proxima;
+        font-size: 60px;
+        color: #fff;
+        text-transform: uppercase;
+      }
+    }
+  
+    .start {
+      right: 0;
+      bottom: 0;
+      position: absolute;
+      color: $white;
+      font-family: Proxima;
+      font-size: 30px;
+    }
+  
+    .three {
+      width: 978px;
+      height: 374px;
+      margin: 0 auto;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: space-between;
+      // background-color: aqua;
+  
+      .egypt-imag1 {
+        background-image: url(../assets/tour-egypt/egypt-tour-01.jpg);
+      }
+  
+      .egypt-imag2 {
+        background-image: url(../assets/tour-egypt/egypt-tour-02.jpg);
+      }
+  
+      .egypt-imag3 {
+        background-image: url(../assets/tour-egypt/egypt-tour-03.jpg);
+      }
+    }
+  }
+  
+  .info-content {
+    width: 981px;
+    min-height: 776px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  
+    .sec1 {
+      .day-title {
+        font-family: Proxima;
+        font-size: 60px;
+      }
+  
+      .bord {
+        width: 171px;
+        margin-top: -20px;
+        border-bottom: $black solid 2px;
+        margin-bottom: 37px;
+      }
+  
+      .day-content {
+        font-family: Gillsans;
+        font-size: 16px;
+      }
+    }
+  
+    .sec2 {
+      margin-top: 70px;
+  
+      .day-title {
+        font-family: Proxima;
+        font-size: 60px;
+      }
+  
+      .bord {
+        width: 171px;
+        margin-top: -20px;
+        border-bottom: $black solid 2px;
+        margin-bottom: 37px;
+      }
+  
+      .day-content {
+        font-family: Gillsans;
+        font-size: 16px;
+      }
+    }
+  
+    .sec3 {
+      margin-top: 70px;
+  
+      .day-title {
+        font-family: Proxima;
+        font-size: 60px;
+      }
+  
+      .bord {
+        width: 171px;
+        margin-top: -20px;
+        border-bottom: $black solid 2px;
+        margin-bottom: 37px;
+      }
+  
+      .day-content {
+        font-family: Gillsans;
+        font-size: 16px;
+      }
+    }
+  
+    .book-btn {
+      width: 133px;
+      margin: 0 auto;
+      margin-top: 80px;
+      font-family: Gillsans;
+      font-size: 15px;
+      color: $white;
+      background-color: $site-blue;
+      padding: 10px 20px;
+      border-radius: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .head {
+      width: 981px;
+      margin: 0 auto;
+      flex-direction: column;
+    }
+  
+    .start {
+      padding-right: 200px;
+    }
+  
+    .info-content {
+      width: 981px;
+      margin-bottom: 50px;
+      padding-left: 20px;
+  
+      .day-content {
+        width: 700px;
+        margin-bottom: 50px;
+      }
+  
+      .book-btn {
+        margin: 0 auto;
+      }
+    }
+  }

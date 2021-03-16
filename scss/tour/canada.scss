@@ -1,6 +1,7 @@
 .head {
-  .canada-header {
-    @include center(981px, 0 auto);
+  .can-header {
+    width: 981px;
+    margin: 0 auto;
     height: 413px;
     margin-top: 50px;
     background-image: linear-gradient(
@@ -33,7 +34,7 @@
     right: 0;
     bottom: 0;
     position: absolute;
-    color: $white;
+    color: #fff;
     font-family: Proxima;
     font-size: 30px;
   }
@@ -78,7 +79,7 @@
     .bord {
       width: 171px;
       margin-top: -20px;
-      border-bottom: $black solid 2px;
+      border-bottom: #000 solid 2px;
       margin-bottom: 37px;
     }
 
@@ -99,7 +100,7 @@
     .bord {
       width: 171px;
       margin-top: -20px;
-      border-bottom: $black solid 2px;
+      border-bottom: #000 solid 2px;
       margin-bottom: 37px;
     }
 
@@ -120,7 +121,7 @@
     .bord {
       width: 171px;
       margin-top: -20px;
-      border-bottom: $black solid 2px;
+      border-bottom: #000 solid 2px;
       margin-bottom: 37px;
     }
 
@@ -136,8 +137,8 @@
     margin-top: 80px;
     font-family: Gillsans;
     font-size: 15px;
-    color: $white;
-    background-color: $site-blue;
+    color: #fff;
+    background-color: #79ADDC;
     padding: 10px 20px;
     border-radius: 20px;
   }
