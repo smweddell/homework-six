@@ -1,5 +1,5 @@
 .head {
-  .israel-header {
+  .canada-header {
     @include center(981px, 0 auto);
     height: 413px;
     margin-top: 50px;
@@ -8,7 +8,7 @@
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
       ),
-      url(../assets/tour-01.jpg);
+      url(../assets/tour-08.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -49,77 +49,16 @@
     justify-content: space-between;
     // background-color: aqua;
 
-    .isra-imag1 {
-      background-image: url(../assets/tour-israel/israel-tour-01.jpg);
-      //   background-color: blue;
+    .can-imag1 {
+      background-image: url(../assets/tour-canada/canada-tour-01.jpg);
     }
 
-    .isra-imag2 {
-      background-image: url(../assets/tour-israel/israel-tour-02.jpg);
+    .can-imag2 {
+      background-image: url(../assets/tour-canada/canada-tour-02.jpg);
     }
 
-    .isra-imag3 {
-      background-image: url(../assets/tour-israel/israel-tour-03.jpg);
-    }
-
-    .usa-imag1 {
-      background-image: url(../assets/tour-aus/aus-tour-01.jpg);
-    }
-
-    .usa-imag2 {
-      background-image: url(../assets/tour-aus/aus-tour-02.jpg);
-    }
-
-    .usa-imag3 {
-      background-image: url(../assets/tour-aus/aus-tour-03.jpg);
-    }
-
-    .new-imag1 {
-      background-image: url(../assets/tour-aus/aus-tour-01.jpg);
-    }
-
-    .new-imag2 {
-      background-image: url(../assets/tour-aus/aus-tour-02.jpg);
-    }
-
-    .new-imag3 {
-      background-image: url(../assets/tour-aus/aus-tour-03.jpg);
-    }
-
-    .egypt-imag1 {
-      background-image: url(../assets/tour-aus/aus-tour-01.jpg);
-    }
-
-    .egypt-imag2 {
-      background-image: url(../assets/tour-aus/aus-tour-02.jpg);
-    }
-
-    .egypt-imag3 {
-      background-image: url(../assets/tour-aus/aus-tour-03.jpg);
-    }
-
-    .japan-imag1 {
-      background-image: url(../assets/tour-aus/aus-tour-01.jpg);
-    }
-
-    .japan-imag2 {
-      background-image: url(../assets/tour-aus/aus-tour-02.jpg);
-    }
-
-    .japan-imag3 {
-      background-image: url(../assets/tour-aus/aus-tour-03.jpg);
-    }
-
-    .aue-imag1 {
-      background-image: url(../assets/tour-aus/aus-tour-01.jpg);
-    }
-
-    .aue-imag2 {
-      background-image: url(../assets/tour-aus/aus-tour-02.jpg);
-    }
-
-    .aue-imag3 {
-      background-image: url(../assets/tour-aus/aus-tour-03.jpg);
+    .can-imag3 {
+      background-image: url(../assets/tour-canada/canada-tour-03.jpg);
     }
   }
 }
